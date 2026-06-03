@@ -1,6 +1,8 @@
 import streamlit as st
-from pathlib import Path
 import pandas as pd
+import plotly.express as px
+from pathlib import Path
+import plotly.graph_objects as go
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = BASE_DIR / "data" / "processed_bank_data.csv"
